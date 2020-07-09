@@ -1,0 +1,24 @@
+{
+  "name": "checkers",
+  "version": "1.0.0",
+  "description": "Checkers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "lint": "standard",
+    "test": "mocha"
+  },
+  "author": "Jesús Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
